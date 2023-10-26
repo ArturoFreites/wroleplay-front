@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Helvetica Condensed';
+    src: url('../assets/fonts/helvetica-condensed-regular/Helvetica Condensed Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Condensed Black';
+    src: url('../assets/fonts/helvetica-condensed-regular/Helvetica Black Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Helvetica Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    p{
+        margin: 0px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+$rosa: #F24C84;
+$negro:#0D1014;
+
+@import './_nav';
+@import './_footeer';
+@import './_home';
+@import './tienda'

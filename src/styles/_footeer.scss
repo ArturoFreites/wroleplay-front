@@ -1,0 +1,91 @@
+footer{
+    height: 30vh;
+    background-image: url("../assets/fondo-footer.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    padding: 0px 150px;
+}
+.footer-links{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: 900;
+    a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 2px;
+    }
+    a:hover{
+        color: $rosa;
+    }
+}
+.footer-logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 30%;
+    }
+}
+
+.footer-logo:hover{
+    img{
+        width: 25%;
+    }
+}
+.footer-social{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-ds{
+    a{
+        width: 150px;
+        display: flex;
+        background-color: $rosa;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        p{
+            padding-left: 5px;
+        }
+    }
+}
+
+.footer-ds:hover{
+    a{
+        color: $rosa;
+        background-color: white;
+        font-weight: 700;
+    }
+}
+
+.footer-redes{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    img{
+        width: 20px;
+        margin: 5px;
+    }
+}
+.footer-line{
+    height: 2vh;
+    background-color: $rosa;
+}

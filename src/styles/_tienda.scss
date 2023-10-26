@@ -1,0 +1,188 @@
+.portada-tienda{
+    height: 70vh;
+    width: 100%;
+    background-image: url('../assets/0.png');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    img{
+        width: 100%;
+        position: absolute;
+        transform: translateY(-10%);
+        object-position: bottom;
+        object-fit: cover;
+    }
+    div{
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding-left: 20%;
+        h1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: uppercase;
+            font-size: 50px;
+            font-weight: 900;
+        }
+        p{
+            font-size: x-large;
+        }
+    }
+}
+
+.tienda-contenido{
+    background-image: url('../assets/0.png');
+    background-size: cover;
+    background-position: bottom;
+    padding: 0px 60px
+}
+
+.tienda-navegador{
+    display: flex;
+    font-weight: 900;
+    font-size: large;
+    color:white;
+    a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        padding: 0px 10px;
+        color: white;
+    }
+}
+.seleccionado{
+    color: $rosa;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link-tienda:hover{
+    color: black;
+}
+
+.tienda-navegador-container-autos{
+    display: flex;
+    padding: 60px 20px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.tienda-medals{
+    display: flex;
+    span{
+        color: white;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        p{
+            font-weight: 100;
+        }
+    }
+}
+
+.tienda-articulos{
+    width: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 0px 60px 0px;
+}
+.card-auto{
+    width: 28vw;
+    height: 22vw;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.card-auto-seller{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    div{
+        display: flex;
+        padding: 10px 0px 0px 10px;
+        font-size: 30px;
+    }
+    span{
+        background-color: $rosa;
+        position: relative;
+        width: auto;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0 0 10px 0.1px $rosa; 
+        h4{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 28px;
+            font-weight: 900;
+            margin: 0px;
+            padding: 0px 10px;
+        }
+        p{
+            padding: 0px 10px;
+            margin: 0px;
+        }
+    }
+}
+
+.medal1{
+    color: goldenrod;
+}
+.medal2{
+    color: gray;
+}
+.medal3{
+    color: rgb(112, 73, 0);
+}
+
+.card-auto-description{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    padding: 0px 20px;
+    backdrop-filter: blur(3px);
+    div{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            margin: 0px;
+            font-style: italic;
+            font-size: smaller;
+            color: rgb(219, 219, 219);
+        }
+    }
+}
+
+.button-tienda{
+    background-color: $rosa;
+            border-width: 0px;
+            padding: 5px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 900;
+            font-size: medium;
+            box-shadow: 0 0 10px 0.1px $rosa; 
+}
+
+.button-tienda:hover{
+    background-color: white;
+    color: $rosa;
+    box-shadow: 0 0 10px 0.1px white; 
+}

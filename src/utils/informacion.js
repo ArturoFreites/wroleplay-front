@@ -1,0 +1,1 @@
+export const autosDesc = "Este es un texto aleatorio donde se pondra la descripcion de los autos en este caso";
